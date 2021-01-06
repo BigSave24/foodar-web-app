@@ -1,0 +1,755 @@
+.myColors {
+  color: #e7717d;
+  color: #c2cad0;
+  color: #c2b9b0;
+  color: #7e685a;
+  color: #afd275;
+  color: #f4f5f7;
+  color: #0b0c10;
+}
+
+.myFonts {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Fredericka the Great", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0 30px;
+  background-color: #f4f5f7;
+}
+
+#page-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* <----- Advertisement Banner -----> */
+#advertise {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  height: 100px;
+  background-color: #f4f5f7;
+  border-bottom: 1px dotted darkgray;
+  z-index: 20;
+}
+
+#close-ad {
+  /* visibility: visible;
+  position: absolute;
+  top: 0;
+  right: 0; */
+  display: inline-block;
+  float: right;
+  z-index: 2;
+}
+
+#open-ad {
+  /* visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0; */
+  display: none;
+  float: right;
+  z-index: 2;
+}
+
+#client-ad {
+  position: relative;
+  max-width: 700px;
+  min-width: 500px;
+  margin: 0 auto;
+  height: 100px;
+  text-align: center;
+  visibility: hidden;
+  display: block;
+  z-index: -1;
+}
+
+.client-ad a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+#client-ad img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* #advertise h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  padding: 5px;
+} */
+
+/* <----- Header Page -----> */
+
+#header {
+  display: block;
+  height: auto;
+  background-color: #f4f5f7;
+}
+
+#header #logo {
+  display: inline-block;
+  width: 250px;
+  height: 70px;
+}
+
+#logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+#header h1 {
+  text-transform: capitalize;
+}
+
+#login {
+  display: inline-block;
+  float: right;
+}
+
+#login ul li {
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#login ul li:first-child {
+  padding-left: 10px;
+  border-left: 2px solid #0b0c10;
+}
+
+#login ul li:last-child {
+  padding-right: 10px;
+  border-right: 2px solid #0b0c10;
+}
+
+#login ul li a {
+  color: #7e685a;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.spacer-one {
+  height: 5px;
+}
+
+.spacer-two {
+  height: 20px;
+  border-bottom: 3px solid #e7717d;
+}
+
+#header h1 {
+  font-family: "Architects Daughter", cursive;
+  display: block;
+  color: #7e685a;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 20px;
+  font-size: 4.5rem;
+  border-bottom: 3px solid #e7717d;
+}
+
+#header p {
+  color: #c2cad0;
+}
+
+/* <----- Home (index.html) Content Page -----> */
+
+#home-content {
+  height: auto;
+}
+
+.home-image {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+}
+
+.home-image img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: 800px;
+}
+
+.home-img-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 4px 4px 2px #0b0c10;
+  font-size: 3rem;
+  color: #f4f5f7;
+}
+
+#home-content > h2 {
+  display: block;
+  color: #7e685a;
+  font-size: 3.5rem;
+  margin: 50px 0 25px;
+  text-transform: capitalize;
+}
+
+#home-content > p {
+  display: block;
+  color: #0b0c10;
+  font-size: 1.5rem;
+  margin: 10px 0 20px;
+}
+
+#home-content p span {
+  color: #e7717d;
+  text-transform: capitalize;
+}
+
+#home-content > p {
+  font-family: "Libre Baskerville", serif;
+}
+
+#business-model-heading {
+  height: 200px;
+}
+
+#business-model-heading h2 {
+  font-family: "Architects Daughter", cursive;
+  display: block;
+  color: #7e685a;
+  margin: 0 auto 10px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 70px 0 10px;
+  font-size: 3.5rem;
+  /* border-bottom: 1px solid darkgray; */
+}
+
+#business-model-heading .border-line {
+  display: block;
+  border-bottom: 1px solid darkgray;
+}
+
+#business-model {
+  display: block;
+  position: relative;
+  height: auto;
+  min-height: 400px;
+  padding: 25px 0;
+  /* border-bottom: 1px solid darkgray; */
+}
+
+/* #business-model h2 {
+  font-family: "Architects Daughter", cursive;
+  display: block;
+  color: #7e685a;
+  margin: 0 auto 10px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 70px 0 10px;
+  font-size: 4.5rem;
+  border-bottom: 1px solid darkgray;
+} */
+
+#menu-img {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  /* height: auto; */
+  text-align: center;
+  padding: 20px;
+  /* min-width: 300px; */
+}
+
+#menu-img img {
+  width: 100%;
+  height: auto;
+}
+
+#business-info {
+  font-family: "Libre Baskerville", serif;
+  position: relative;
+  display: inline-block;
+  color: #7e685a;
+  width: 55%;
+  vertical-align: top;
+  padding: 0 15px;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+#business-info p span {
+  color: #0b0c10;
+  font-weight: 600;
+}
+
+/* #business-info ol {
+  margin-bottom: 30px;
+} */
+
+#business-info ol {
+  margin-bottom: 30px;
+  list-style: none;
+  counter-reset: my-counter;
+}
+
+#business-info ol li {
+  counter-increment: my-counter;
+}
+
+#business-info ol li::before {
+  content: counter(my-counter) ". ";
+  color: #0b0c10;
+  font-weight: bold;
+}
+
+#business-info a {
+  color: #afd275;
+  text-decoration: none;
+  background-color: #0b0c10;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#featured-restaurant {
+  display: block;
+}
+
+#featured-restaurant h2 {
+  font-family: "Architects Daughter", cursive;
+  display: block;
+  color: #7e685a;
+  margin: 0 auto 10px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 70px 0 10px;
+  font-size: 3.5rem;
+  /* border-bottom: 1px solid darkgray; */
+}
+
+#featured-restaurant .border-line {
+  display: block;
+  border-bottom: 1px solid darkgray;
+}
+
+/* #featured-restaurant .store-container {
+  position: relative;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+} */
+
+#featured-restaurant .store-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  width: 100%;
+  margin: 25px auto 50px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.store-grid-container .boxes {
+  /* float: left;
+  width: 25%;
+  padding: 25px 50px; */
+  width: 300px;
+  vertical-align: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.store-grid-container .boxes .store-img {
+  display: block;
+  position: relative;
+  /* width: 75%;
+  max-width: 200px;
+  min-width: 200px;
+  height: 65%;
+  max-height: 200px;
+  min-width: 175px; */
+  margin: 0 auto;
+  width: 100%;
+  height: 175px;
+  /* background-image: url("/images/burger-and-fries2.jpeg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.burger {
+  background-image: url("/images/burger-and-fries2.jpeg");
+}
+
+.seafood {
+  background-image: url("/images/fish-and-chips2.jpg");
+}
+
+.dessert {
+  background-image: url("/images/dessert2.jpg");
+}
+
+.store-grid-container .boxes .store-img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.store-grid-container .boxes h3 {
+  display: block;
+  font-weight: 500;
+}
+
+.store-grid-container .boxes p {
+  font-family: "Libre Baskerville", serif;
+  display: block;
+  color: #7e685a;
+  font-size: 1rem;
+}
+
+#zipcode-section-container {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 350px;
+  background-image: url(/images/food-plate2.jpg);
+  background-attachment: fixed;
+}
+
+#zipcode-finder {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin: -70px 0 0 -170px;
+  display: block;
+  color: #f4f5f7;
+}
+
+#zip-form {
+  margin: 25px 0 15px;
+}
+
+#zipcode-finder h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #0b0c10;
+}
+
+#zipcode-finder p {
+  font-family: "Libre Baskerville", serif;
+  color: #f4f5f7;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px #0b0c10;
+}
+
+#zip-form input {
+  font-size: 1.2rem;
+  padding: 0.3em;
+}
+
+#zip-form label input {
+  border: 3px solid #afd275;
+}
+
+#zipcode-btn {
+  background-color: #0b0c10;
+  color: #f4f5f7;
+  border: 2px solid #afd275;
+}
+
+#zipcode-msg {
+  display: block;
+  color: #f4f5f7;
+  visibility: visible;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+/* <----- About Content Page -----> */
+
+#content-area {
+  background-color: #f4f5f7;
+  color: #7e685a;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.content-box {
+  margin: 50px auto;
+  padding: 20px;
+  width: 55%;
+}
+
+.content-box h2 {
+  /* color: #919090; */
+  color: #0b0c10;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.content-box p {
+  font-family: "Libre Baskerville", serif;
+  /* color: #0b0c10; */
+  color: #7e685a;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.content-box p > a {
+  color: #e7717d;
+  /* color: #bf1e2e; */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* <----- Registration Content Page -----> */
+
+#registration {
+  text-align: center;
+}
+
+#registration h2 {
+  font-size: 1.8rem;
+  padding: 20px 0;
+}
+#form-container {
+  width: 75%;
+  padding-left: 100px;
+  margin: 0 auto;
+}
+
+#register-form {
+  text-align: left;
+}
+
+fieldset {
+  margin: 40px 0 10px;
+  border: 0;
+}
+
+legend {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.form-row {
+  font-family: "Libre Baskerville", serif;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.8em;
+}
+
+.form-row > label {
+  color: #7e685a;
+  font-size: 1.2rem;
+  padding: 0.5em 1em 0.5em 5em;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.form-row > input {
+  font-size: 1.2rem;
+  padding: 0.5em;
+  flex: 2;
+  min-width: 375px;
+  max-width: 400px;
+}
+
+.submit-btn {
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.form-row > #submit {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  flex: 0.25;
+  /* color: #c2b9b0; */
+  color: #afd275;
+  background-color: #0b0c10;
+}
+
+/* .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+  } */
+
+/* <----- Request Page -----> */
+
+.req-form-row {
+  font-family: "Libre Baskerville", serif;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.8em;
+}
+
+/* .req-form-row > label {
+  color: #7e685a;
+  font-size: 1.2rem;
+  padding: 0.5em 1em 0.5em 5em;
+  flex: 1;
+} */
+
+.req-form-row > input {
+  font-size: 1.2rem;
+  padding: 0.5em;
+  flex: 1;
+  max-width: 400px;
+}
+
+.req-form-row > input[type="submit" i] {
+  max-width: 200px;
+  color: #afd275;
+  background-color: #0b0c10;
+  border-radius: 5px;
+  border: 2px solid #afd275;
+}
+
+#order-tip {
+  text-align: center;
+}
+
+#order-tip > legend {
+  text-align: left;
+}
+
+.form-box {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  color: #7e685a;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+  margin: 5px 10px;
+  /* border: 1px dotted #0b0c10; */
+  border: 1px dotted darkgray;
+  border-radius: 10px;
+}
+
+.form-box > p {
+  display: block;
+}
+
+.form-box > div:first-child {
+  display: block;
+  height: 140px;
+}
+
+.form-box > div:last-child {
+  display: block;
+  height: 50px;
+}
+
+.form-box div p:nth-child(2) {
+  color: #0b0c10;
+}
+
+#total-price {
+  padding: 0.8em;
+  margin: 5px auto;
+}
+
+#total-price h3 {
+  font-size: 2rem;
+}
+
+#total-price h3 span {
+  color: #7e685a;
+}
+
+/* <----- Footer Page -----> */
+
+#footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 60px 60px 60px 45px;
+  grid-gap: 5px;
+  justify-items: center;
+  color: #c2b9b0;
+  background-color: #0b0c10;
+  font-size: 1.2rem;
+  /* height: 250px;
+  text-align: center;
+  padding: 10px; */
+}
+
+.site-map {
+  -ms-grid-column: 1 / span 1;
+  grid-row: 1/ 4;
+  padding: 10px 25px;
+}
+
+.legal {
+  -ms-grid-column: 2 / span 1;
+  grid-row: 1/ 4;
+  padding: 10px 25px;
+}
+
+.food-life {
+  -ms-grid-column: 3 / span 1;
+  grid-row: 1/ 4;
+  padding: 10px 25px;
+}
+
+.rights-box {
+  grid-column: 1 / span 3;
+  grid-row: 4 / last-line;
+}
+
+.links-footer > h4 {
+  padding-bottom: 5px;
+  border-bottom: 5px solid #c2b9b0;
+}
+
+.links-footer > a {
+  font-family: "Libre Baskerville", serif;
+  display: block;
+  padding: 2px 0;
+  color: #afd275;
+  text-decoration: none;
+}
+
+.links-footer > a:hover {
+  color: #c2b9b0;
+  transition: 0.4s ease-in-out;
+}
+
+.text-footer {
+  display: block;
+}
+
+/* #footer p {
+  margin: 0 auto;
+  padding: 10px 0 5px;
+} */

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodar Home</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@500;600;700&family=Fredericka+the+Great&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="page-container">
+    <div id="advertise">
+      <div id="close-ad">
+        <i class="fa fa-window-close-o" aria-hidden="true"></i>
+      </div>
+      <div id="open-ad">
+        <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+      </div>
+      <div id="client-ad">
+        <a href="#" target="_blank">
+          <img
+            src="https://3c5239fcccdc41677a03-1135555c8dfc8b32dc5b4bc9765d8ae5.ssl.cf1.rackcdn.com/Adver--Banners--150x750px-RIOT.jpg"
+            alt=""
+          />
+          <!-- <h2>Advertise Your Business Here!</h2>
+          https://3apq7g38q3kw2yn3fx4bojii-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/whole-cheesecakes.png -->
+        </a>
+      </div>
+      <!-- <hr /> -->
+    </div>
+    <!-- <hr /> -->
+    <header id="header">
+      <div class="spacer-one"></div>
+      <div id="logo">
+        <a href="index.html">
+          <img
+            id="logo-img"
+            src="requirements/0- foodar-logo.png"
+            alt="Foodar Logo"
+          />
+        </a>
+      </div>
+      <div id="login">
+        <ul>
+          <li>
+            <a href="#">sign-in</a>
+          </li>
+          <li>
+            <a href="register.html">register</a>
+          </li>
+        </ul>
+      </div>
+      <div class="spacer-two"></div>
+    </header>
+    <section id="home-content">
+      <div class="home-image">
+        <img src="images/pexels-kasumi-loffler-3535383.jpg" alt="" />
+        <div class="home-img-caption">Try A New Meal Today</div>
+      </div>
+
+      <div id="business-model-heading">
+        <h2>How it all works</h2>
+        <div class="border-line"></div>
+      </div>
+      <div id="business-model">
+        <div id="menu-img">
+          <img src="images/OnTheMenu_logo.png" alt="" />
+        </div>
+        <div id="business-info">
+          <p>
+            <span>The process is simple.</span> We deliver whatever food you
+            order from our partner restaurants. We provide an experience to our
+            patrons with utmost courtesy and hospitality. Try out Foodar today!
+          </p>
+          <ol>
+            <li>Order your food</li>
+            <li>Find a driver</li>
+            <li>Place pickup request</li>
+          </ol>
+          <a href="about.html" class="read-more"> Read More </a>
+        </div>
+      </div>
+      <div id="featured-restaurant">
+        <h2>Featured Restaurants</h2>
+        <div class="border-line"></div>
+        <div class="store-grid-container">
+          <div class="boxes">
+            <div class="store-img burger">
+              <!-- <img
+                src="images/burger-and-fries2.jpeg"
+                alt="Burger and fries image"
+              /> -->
+            </div>
+            <h3>Burger Store Name</h3>
+            <p>
+              When you actually, really desire a burger, you order from Bubba
+              Joe's. Unlike the fast food business, we eat our own food and love
+              it.
+            </p>
+            <p>Order 2 burgers and <span>get a small fry</span> on us today.</p>
+          </div>
+          <div class="boxes">
+            <div class="store-img dessert">
+              <!-- <img src="images/dessert2.jpg" alt="" /> -->
+            </div>
+            <h3>Dessert Store Name</h3>
+            <p>
+              Welcome to your favorite part of dinner, lunch, breakfast, brunch,
+              any meal. We know you don't need encouragement from us to eat our
+              desserts. Look at the picture. You know you want it.
+            </p>
+            <p>
+              Just for you, we'll <span>knock off 10%</span> to make your wallet
+              feel good too.
+            </p>
+          </div>
+          <div class="boxes">
+            <div class="store-img seafood">
+              <!-- <img src="images/fish-and-chips.jpg" alt="" /> -->
+            </div>
+            <h3>Seafood Store Name</h3>
+            <p>
+              Since 1968, Fish & Chips Gallore! has served the bay area with its
+              palatable array of fried fish and sailor's choice dessert.
+            </p>
+            <p>
+              Order today and <span>recieve 15%</span> your total meal and we'll
+              throw in our famous hush puppies as a thank you.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <h2>Find a driver near you!</h2>
+      <p>
+        Type in your <span>zipcode</span> below and click <span>go!</span> to
+        find a driver near you...
+      </p>
+      <form id="zip-form" action="#">
+        <label for="zipcode">
+          <input
+            type="number"
+            name="zipcode"
+            class="zip-search"
+            placeholder="Enter Zipcode"
+            minlength="5"
+            maxlength="5"
+            value=""
+            required
+          />
+        </label>
+        <input type="submit" id="zipcode-btn" value="Go!" />
+      </form>
+      <div id="zipcode-msg">
+        <p id="zipcode-msg-output"></p>
+      </div> -->
+    </section>
+    <section id="zipcode-section">
+      <div id="zipcode-section-container">
+        <div id="zipcode-finder">
+          <h2>Find a driver near you!</h2>
+          <p>
+            Type in your <span>zipcode</span> and click <span>Go!</span> to find
+            a driver near you...
+          </p>
+          <form id="zip-form" action="#">
+            <label for="zipcode">
+              <input
+                type="number"
+                name="zipcode"
+                class="zip-search"
+                placeholder="Enter Zipcode"
+                minlength="5"
+                maxlength="5"
+                value=""
+                required
+              />
+            </label>
+            <input type="submit" id="zipcode-btn" value="Go!" />
+          </form>
+          <div id="zipcode-msg">
+            <p id="zipcode-msg-output"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="site-map links-footer">
+        <h4>SITE MAP</h4>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="request.html">Request</a>
+        <a href="about.html">How it All Works</a>
+      </div>
+      <div class="legal links-footer">
+        <h4>LEGAL</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+      <div class="food-life links-footer">
+        <h4>FOOD IS LIFE</h4>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      </div>
+      <div class="rights-box">
+        <p>&copy; 2020. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
